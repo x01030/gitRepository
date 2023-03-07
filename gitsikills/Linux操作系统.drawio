@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T01:12:24.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HCGiiR7NcAeL17eY41Bd" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T01:34:49.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JR3Xl37sQGPiY_X_6K-D" version="20.8.16" type="github">
   <diagram name="第 1 页" id="mb5L1G1VlliarsaCnKUl">
     <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,8 +25,16 @@
         <mxCell id="umqZjqoOpSbpQqLyCYVw-8" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU0&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;align=center;horizontal=1;fontFamily=Helvetica;flipH=0;flipV=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="200" y="1010" width="190" height="470" as="geometry" />
         </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-14" target="umqZjqoOpSbpQqLyCYVw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-144" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#97D077;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-142">
+          <mxGeometry x="0.2345" y="-11" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-14" value="寄存器" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1010" width="90" height="50" as="geometry" />
+          <mxGeometry x="420" y="1020" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-20" value="逻辑单元&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(计算类型指令)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="1200" width="100" height="40" as="geometry" />
@@ -37,7 +45,7 @@
         <mxCell id="umqZjqoOpSbpQqLyCYVw-129" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.95;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-130" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-129">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-130" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-129">
           <mxGeometry x="0.1788" y="12" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -50,6 +58,14 @@
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;硬盘&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(存储设备)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1450" y="990" width="170" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-143" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-23" target="umqZjqoOpSbpQqLyCYVw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-145" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#97D077;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-143">
+          <mxGeometry x="0.1978" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-23" value="&amp;nbsp; &amp;nbsp;cpu cache(SRAM)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="1387" width="140" height="70" as="geometry">
@@ -92,8 +108,8 @@
         <mxCell id="umqZjqoOpSbpQqLyCYVw-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;32位CPU&lt;/b&gt;：表示CPU的位宽,代表CPU一次可以计算（运算）的数据量，即4B。&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="580" y="950" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-115" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;A.程序执行&lt;/b&gt;：&lt;br&gt;1.CPU 读取「程序计数器」的值(下一条指令的内存地址[虚拟地址]);&lt;br&gt;2.虚拟地址经过MMU转换为物理地址；CPU 的「控制单元」操作&lt;font color=&quot;#7ea6e0&quot;&gt;「地址总线」&lt;/font&gt;指定需要访问的内存地址，接着通知内存设备准备数据，数据准备好后通过「&lt;font color=&quot;#7ea6e0&quot;&gt;数据总线&lt;/font&gt;」将指令数据传给 CPU；&lt;br&gt;3.CPU 收到内存传来的数据后，将这个指令数据存入到「指令寄存器」；&lt;br&gt;4.&quot;程序计数器&quot;自增，指向下一条指令；&lt;font color=&quot;#7ea6e0&quot;&gt;CPU 分析「指令寄存器」&lt;/font&gt;中的指令，确定指令的类型和参数，如果是计算类型的指令，就把指令交给「逻辑运算单元」运算；如果是存储类型的指令，则交由「控制单元」执行；&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1620" width="470" height="170" as="geometry" />
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-115" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;A.程序执行&lt;/b&gt;：&lt;br&gt;1.CPU 读取「程序计数器」的值(下一条指令的内存地址[虚拟地址]);&lt;br&gt;2.虚拟地址经过MMU转换为物理地址；CPU 的「控制单元」操作&lt;font color=&quot;#7ea6e0&quot;&gt;「地址总线」&lt;/font&gt;指定需要访问的内存地址，接着通知内存设备准备数据，数据准备好后通过「&lt;font color=&quot;#7ea6e0&quot;&gt;数据总线&lt;/font&gt;」将指令数据传给 CPU；&lt;br&gt;3.CPU 收到&lt;font color=&quot;#7ea6e0&quot;&gt;内存传来的数据&lt;/font&gt;后，将这个指令数据存入到「指令寄存器」；&lt;br&gt;4.&quot;程序计数器&quot;自增，指向下一条指令；&lt;font color=&quot;#7ea6e0&quot;&gt;CPU 分析「指令寄存器」&lt;/font&gt;中的指令，确定指令的类型和参数，如果是计算类型的指令，就把指令交给「逻辑运算单元」运算；如果是存储类型的指令，则交由「控制单元」执行；&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1620" width="470" height="170" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-117" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="130" y="1800" width="190" height="110" as="geometry" />
@@ -114,8 +130,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-132" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-131">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-132" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-131">
           <mxGeometry x="-0.0041" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-139" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-121" target="umqZjqoOpSbpQqLyCYVw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-140" value="&lt;font color=&quot;#ff8000&quot;&gt;4&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-139">
+          <mxGeometry x="-0.3517" y="17" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -131,7 +155,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-125" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-124">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-125" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-124">
           <mxGeometry x="-0.1667" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -153,16 +177,19 @@
         <mxCell id="umqZjqoOpSbpQqLyCYVw-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="umqZjqoOpSbpQqLyCYVw-133" source="umqZjqoOpSbpQqLyCYVw-135" target="umqZjqoOpSbpQqLyCYVw-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-137" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;L3&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-137" value="&lt;b&gt;L3&lt;/b&gt;(cat /sys/devices/system/cpu/cpu0/cache/index3/size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="250" y="1458" width="440" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-63" value="2.控制、地址、数据总线&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;（物理地址）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" target="umqZjqoOpSbpQqLyCYVw-21">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-63" value="2.控制、地址、数据总线&lt;br&gt;&lt;font&gt;（物理地址）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" target="umqZjqoOpSbpQqLyCYVw-21">
           <mxGeometry x="0.0167" y="30" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;线路位宽&lt;/b&gt;：最好1次能访问到所有的内存地址。若4G物理内存，则4G=2&lt;sup&gt;32&lt;/sup&gt;，需要32个地址总线。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="710" y="1362" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-141" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;B.cpu访问内存的数据&lt;/b&gt;：&lt;br&gt;1.寄存器有，则获取，否则往后；&lt;br&gt;2.L1,L2,L3有，则获取，否则往后&lt;br&gt;3.内存&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1820" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
