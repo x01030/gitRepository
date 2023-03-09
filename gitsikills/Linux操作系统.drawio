@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T01:42:01.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Z4Cr6xlZKb2pREkT8GiS" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T01:42:39.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Wpq-EdCG1L2M65r7peW7" version="20.8.16" type="github">
   <diagram name="第 1 页" id="mb5L1G1VlliarsaCnKUl">
     <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
           <mxGeometry x="50" y="2110" width="650" height="160" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-149" value="&lt;font style=&quot;&quot;&gt;&lt;b&gt;解答：&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;第2章_硬件结构&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;/font&gt;1. Cache 作为 CPU 与内存之间的缓存层，以减少对内存的访问频率。" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;gradientColor=#97d077;" vertex="1" parent="1">
-          <mxGeometry x="760" y="2100" width="520" height="180" as="geometry" />
+          <mxGeometry x="760" y="2110" width="540" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
