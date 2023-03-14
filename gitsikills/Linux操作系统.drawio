@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T00:27:19.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="yZ5iz5D1LLqvlHQp71Vc" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-14T00:38:49.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="E_I2bJjKY0FKwjzDo36f" version="20.8.16" type="github" pages="2">
   <diagram name="第 1 页" id="mb5L1G1VlliarsaCnKUl">
-    <mxGraphModel dx="2126" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry y="960" width="80" height="41" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;cpu读写内存数据：&lt;br&gt;a.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1640" width="210" height="90" as="geometry" />
+          <mxGeometry x="105.46000000000004" y="1600" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-8" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU0&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;align=center;horizontal=1;fontFamily=Helvetica;flipH=0;flipV=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="200" y="1010" width="190" height="470" as="geometry" />
@@ -114,7 +114,7 @@
           <mxGeometry x="580" y="950" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-115" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;A.程序执行&lt;/b&gt;：【2.1】&lt;br&gt;1.CPU 读取「程序计数器」的值(下一条指令的内存地址[虚拟地址]);&lt;br&gt;2.1. 访问的虚拟地址在MMU中的TLB快表查到，则转换为物理地址，否则，继续2.2；&lt;br&gt;2.2. 访问的虚拟地址在MMU中的TLB快表查不到，&lt;font color=&quot;#ff3333&quot;&gt;产生缺页异常&lt;/font&gt;，进入系统内核空间分配物理内存、更新进程页表，最后再返回用户空间，恢复进程的运行，按照2.1操作；&lt;br&gt;3. 虚拟地址经过MMU转换为物理地址；CPU 的「控制单元」操作&lt;font color=&quot;#7ea6e0&quot;&gt;「地址总线」&lt;/font&gt;指定需要访问的内存地址，接着通知内存设备准备数据，数据准备好后通过「&lt;font color=&quot;#7ea6e0&quot;&gt;数据总线&lt;/font&gt;」将指令数据传给 CPU；&lt;br&gt;4.CPU 收到&lt;font color=&quot;#7ea6e0&quot;&gt;内存传来的数据&lt;/font&gt;后，将这个指令数据存入到「指令寄存器」；&lt;br&gt;5.&quot;程序计数器&quot;自增，指向下一条指令；&lt;font color=&quot;#7ea6e0&quot;&gt;CPU 分析「指令寄存器」&lt;/font&gt;中的指令，确定指令的类型和参数，如果是计算类型的指令，就把指令交给「逻辑运算单元」运算；如果是存储类型的指令，则交由「控制单元」执行；&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1580" width="525" height="250" as="geometry" />
+          <mxGeometry x="400" y="1600" width="555" height="230" as="geometry" />
         </mxCell>
         <mxCell id="umqZjqoOpSbpQqLyCYVw-117" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="130" y="1800" width="190" height="110" as="geometry" />
@@ -325,19 +325,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I6BwEbaGJY3xJRhFpG0U-43" value="&lt;font color=&quot;#000000&quot;&gt;分段&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1450" width="90" height="40" as="geometry" />
+          <mxGeometry x="1040" y="1659.5" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I6BwEbaGJY3xJRhFpG0U-44" value="&lt;font color=&quot;#000000&quot;&gt;分页&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="1550" width="90" height="30" as="geometry" />
+          <mxGeometry x="1040" y="1776.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I6BwEbaGJY3xJRhFpG0U-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1654" y="1444" width="20" height="50" as="geometry" />
+          <mxGeometry x="1134" y="1653.5" width="20" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I6BwEbaGJY3xJRhFpG0U-47" value="优点：程序本身不需要关心具体的物理内存地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1674" y="1431" width="320" height="30" as="geometry" />
+          <mxGeometry x="1154" y="1640.5" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-48" value="缺点：产生外部内存碎片；&lt;br&gt;内存交换的效率低：硬盘的访问速度要比内存慢太多了，&lt;br&gt;每一次内存交换，我们都需要把一大段连续的内存数据写到硬盘上，使得整个假期卡顿" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1684" y="1474" width="560" height="60" as="geometry" />
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-48" value="缺点：产生外部内存碎片；&lt;br&gt;内存交换的效率低：硬盘的访问速度要比内存慢太多了，&lt;br&gt;每一次内存交换，我们都需要把一大段连续的内存数据写到硬盘上，使得整个机器卡顿" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="1683.5" width="560" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I6BwEbaGJY3xJRhFpG0U-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-50" target="umqZjqoOpSbpQqLyCYVw-28">
           <mxGeometry relative="1" as="geometry" />
@@ -349,6 +349,12 @@
         </mxCell>
         <mxCell id="I6BwEbaGJY3xJRhFpG0U-50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页表&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 14px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;（记录虚拟地址与物理地址映射关系)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1050" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-56" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1753" width="20" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;优点：1. 采取分页，页与页之间是紧密排列的，所以不会有外部碎片；&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2. 内存交换效率提高：物理内存空间不够时，操作系统会把其他正在运行的进程中的「最近没被使用」的物理内存页面给释放掉，也就是暂时写在硬盘上，称为&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;换出&lt;/font&gt;；一旦需要的时候，再加载进来，称为&lt;font color=&quot;#ff3333&quot;&gt;换入&lt;/font&gt;。所以，一次性写入磁盘的也只有少数的一个页或者几个页，不会花太多时间。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1740" width="540" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
