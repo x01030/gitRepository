@@ -1,369 +1,369 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T02:58:12.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZtAw1NvuGwkX9jsK3oct" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-17T12:24:13.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6p4Vp6LQ-e_ENaUxaRGP" version="21.0.6" type="github" pages="2">
   <diagram name="第 1 页" id="mb5L1G1VlliarsaCnKUl">
-    <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2414" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="522.22" width="1840" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-13" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU1&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;align=center;horizontal=1;fontFamily=Helvetica;flipH=0;flipV=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-13" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU1&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;align=center;horizontal=1;fontFamily=Helvetica;flipH=0;flipV=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="396" y="1010" width="280" height="506" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-123" value="控制单元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-123" value="控制单元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="472" y="1071" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内核&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内核&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="530" width="80" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;硬件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;硬件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="960" width="80" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;cpu读写内存数据：&lt;br&gt;a.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;cpu读写内存数据：&lt;br&gt;a.dd&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="105.46000000000004" y="1600" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-8" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU0&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;align=center;horizontal=1;fontFamily=Helvetica;flipH=0;flipV=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-8" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU0&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;align=center;horizontal=1;fontFamily=Helvetica;flipH=0;flipV=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="182" y="1010" width="190" height="506" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-14" target="umqZjqoOpSbpQqLyCYVw-23">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" source="umqZjqoOpSbpQqLyCYVw-14" target="umqZjqoOpSbpQqLyCYVw-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-144" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#97D077;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-142">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-144" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#97D077;" parent="umqZjqoOpSbpQqLyCYVw-142" vertex="1" connectable="0">
           <mxGeometry x="0.2345" y="-11" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-14" value="寄存器" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-14" value="寄存器" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="402" y="1021" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-20" value="逻辑单元&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(计算类型指令)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-20" value="逻辑单元&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(计算类型指令)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="402" y="1201" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-33">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontFamily=Helvetica;fontSize=14;" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-129" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.95;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-123">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-129" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.95;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-130" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-129">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-130" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" parent="umqZjqoOpSbpQqLyCYVw-129" vertex="1" connectable="0">
           <mxGeometry x="0.1788" y="12" relative="1" as="geometry">
             <mxPoint x="-193" y="-38" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-22">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="umqZjqoOpSbpQqLyCYVw-21" target="umqZjqoOpSbpQqLyCYVw-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内存&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(内存条/物理内存/DRAM)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内存&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(内存条/物理内存/DRAM)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1006" width="280" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-22" target="umqZjqoOpSbpQqLyCYVw-33">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=14;" parent="1" source="umqZjqoOpSbpQqLyCYVw-22" target="umqZjqoOpSbpQqLyCYVw-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;硬盘&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(存储设备)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;硬盘&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(存储设备)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1540" y="1000" width="170" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-143" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-23" target="umqZjqoOpSbpQqLyCYVw-21">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-143" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#7EA6E0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" source="umqZjqoOpSbpQqLyCYVw-23" target="umqZjqoOpSbpQqLyCYVw-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-145" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#97D077;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-143">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-145" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#97D077;" parent="umqZjqoOpSbpQqLyCYVw-143" vertex="1" connectable="0">
           <mxGeometry x="0.1978" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-23" value="&amp;nbsp; &amp;nbsp;cpu cache(SRAM)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-23" value="&amp;nbsp; &amp;nbsp;cpu cache(SRAM)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="532" y="1423" width="140" height="70" as="geometry">
             <mxRectangle x="420" y="1420" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-24" value="L1&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(数据缓存、指令缓存)&lt;/font&gt;&lt;/span&gt;" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-23">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-24" value="L1&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(数据缓存、指令缓存)&lt;/font&gt;&lt;/span&gt;" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="umqZjqoOpSbpQqLyCYVw-23" vertex="1">
           <mxGeometry y="20" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-25" value="L2" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-23">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-25" value="L2" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="umqZjqoOpSbpQqLyCYVw-23" vertex="1">
           <mxGeometry y="50" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="umqZjqoOpSbpQqLyCYVw-23" source="umqZjqoOpSbpQqLyCYVw-25" target="umqZjqoOpSbpQqLyCYVw-25">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" parent="umqZjqoOpSbpQqLyCYVw-23" source="umqZjqoOpSbpQqLyCYVw-25" target="umqZjqoOpSbpQqLyCYVw-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;strokeColor=none;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-28">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-70" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;strokeColor=none;endArrow=blockThin;endFill=1;" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="462" y="1386" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" target="I6BwEbaGJY3xJRhFpG0U-35">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" target="I6BwEbaGJY3xJRhFpG0U-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-28" value="MMU" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-28" value="MMU" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="412" y="1316" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-33" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;存储器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-33" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;存储器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1580" width="80" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;curved=1;dashed=1;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-25" target="umqZjqoOpSbpQqLyCYVw-33">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;curved=1;dashed=1;" parent="1" source="umqZjqoOpSbpQqLyCYVw-25" target="umqZjqoOpSbpQqLyCYVw-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-128" value="2.1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF8000;startArrow=classic;startFill=1;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-35" target="umqZjqoOpSbpQqLyCYVw-28">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-128" value="2.1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF8000;startArrow=classic;startFill=1;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-35" target="umqZjqoOpSbpQqLyCYVw-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="462" y="1386" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-76" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;用户层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-76" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;用户层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="10" y="340" width="80" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;32位CPU&lt;/b&gt;：表示CPU的位宽,代表CPU一次可以计算（运算）的数据量，即4B。&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;32位CPU&lt;/b&gt;：表示CPU的位宽,代表CPU一次可以计算（运算）的数据量，即4B。&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="467" y="960" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-115" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;A.程序执行&lt;/b&gt;：【2.1】&lt;br&gt;1.CPU 读取「程序计数器」的值(下一条指令的内存地址[虚拟地址]);&lt;br&gt;2.1. 访问的虚拟地址在MMU中的TLB快表查到，则转换为物理地址，否则，继续2.2；&lt;br&gt;2.2. 访问的虚拟地址在MMU中的TLB快表查不到，&lt;font color=&quot;#ff3333&quot;&gt;产生缺页异常&lt;/font&gt;，进入系统内核空间分配物理内存、更新进程页表，最后再返回用户空间，恢复进程的运行，按照2.1操作；&lt;br&gt;3. 虚拟地址经过MMU转换为物理地址；CPU 的「控制单元」操作&lt;font color=&quot;#7ea6e0&quot;&gt;「地址总线」&lt;/font&gt;指定需要访问的内存地址，接着通知内存设备准备数据，数据准备好后通过「&lt;font color=&quot;#7ea6e0&quot;&gt;数据总线&lt;/font&gt;」将指令数据传给 CPU；&lt;br&gt;4.CPU 收到&lt;font color=&quot;#7ea6e0&quot;&gt;内存传来的数据&lt;/font&gt;后，将这个指令数据存入到「指令寄存器」；&lt;br&gt;5.&quot;程序计数器&quot;自增，指向下一条指令；&lt;font color=&quot;#7ea6e0&quot;&gt;CPU 分析「指令寄存器」&lt;/font&gt;中的指令，确定指令的类型和参数，如果是计算类型的指令，就把指令交给「逻辑运算单元」运算；如果是存储类型的指令，则交由「控制单元」执行；&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-115" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;A.程序执行&lt;/b&gt;：【2.1】&lt;br&gt;1.CPU 读取「程序计数器」的值(下一条指令的内存地址[虚拟地址]);&lt;br&gt;2.1. 访问的虚拟地址在MMU中的TLB快表查到，则转换为物理地址，否则，继续2.2；&lt;br&gt;2.2. 访问的虚拟地址在MMU中的TLB快表查不到，&lt;font color=&quot;#ff3333&quot;&gt;产生缺页异常&lt;/font&gt;，进入系统内核空间分配物理内存、更新进程页表，最后再返回用户空间，恢复进程的运行，按照2.1操作；&lt;br&gt;3. 虚拟地址经过MMU转换为物理地址；CPU 的「控制单元」操作&lt;font color=&quot;#7ea6e0&quot;&gt;「地址总线」&lt;/font&gt;指定需要访问的内存地址，接着通知内存设备准备数据，数据准备好后通过「&lt;font color=&quot;#7ea6e0&quot;&gt;数据总线&lt;/font&gt;」将指令数据传给 CPU；&lt;br&gt;4.CPU 收到&lt;font color=&quot;#7ea6e0&quot;&gt;内存传来的数据&lt;/font&gt;后，将这个指令数据存入到「指令寄存器」；&lt;br&gt;5.&quot;程序计数器&quot;自增，指向下一条指令；&lt;font color=&quot;#7ea6e0&quot;&gt;CPU 分析「指令寄存器」&lt;/font&gt;中的指令，确定指令的类型和参数，如果是计算类型的指令，就把指令交给「逻辑运算单元」运算；如果是存储类型的指令，则交由「控制单元」执行；&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="400" y="1600" width="555" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-117" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-117" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="130" y="1800" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-118" value="指令寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(当前正在执行的指令)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-117">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-118" value="指令寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(当前正在执行的指令)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="umqZjqoOpSbpQqLyCYVw-117" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-119" value="程序寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(存储CPU下一条指令的内存地址)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-117">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-119" value="程序寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(存储CPU下一条指令的内存地址)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="umqZjqoOpSbpQqLyCYVw-117" vertex="1">
           <mxGeometry y="60" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-116" value="控制单元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-117">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-116" value="控制单元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" parent="umqZjqoOpSbpQqLyCYVw-117" vertex="1">
           <mxGeometry x="-10" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-131" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-121" target="umqZjqoOpSbpQqLyCYVw-20">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-131" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="umqZjqoOpSbpQqLyCYVw-121" target="umqZjqoOpSbpQqLyCYVw-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="452" y="1124" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-132" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-131">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-132" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#FF8000;" parent="umqZjqoOpSbpQqLyCYVw-131" vertex="1" connectable="0">
           <mxGeometry x="-0.0041" y="7" relative="1" as="geometry">
             <mxPoint x="-7" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-139" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-121" target="umqZjqoOpSbpQqLyCYVw-14">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-139" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="umqZjqoOpSbpQqLyCYVw-121" target="umqZjqoOpSbpQqLyCYVw-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-140" value="&lt;font color=&quot;#ff8000&quot;&gt;5&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-139">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-140" value="&lt;font color=&quot;#ff8000&quot;&gt;5&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" parent="umqZjqoOpSbpQqLyCYVw-139" vertex="1" connectable="0">
           <mxGeometry x="-0.3517" y="17" relative="1" as="geometry">
             <mxPoint x="-3" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-121" value="指令寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(当前正在执行的指令)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-121" value="指令寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(当前正在执行的指令)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="482" y="1101" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-74" value="1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BD7000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-122" target="I6BwEbaGJY3xJRhFpG0U-66">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-74" value="1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BD7000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;" parent="1" source="umqZjqoOpSbpQqLyCYVw-122" target="I6BwEbaGJY3xJRhFpG0U-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-122" value="程序寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(存储CPU下一条指令的内存地址)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-122" value="程序寄存器&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(存储CPU下一条指令的内存地址)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="482" y="1131" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-133" value="&amp;nbsp; &amp;nbsp;cpu cache(SRAM)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-133" value="&amp;nbsp; &amp;nbsp;cpu cache(SRAM)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="232" y="1414" width="140" height="80" as="geometry">
             <mxRectangle x="420" y="1420" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-134" value="L1&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(数据缓存、指令缓存)&lt;/font&gt;&lt;/span&gt;" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-133">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-134" value="L1&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(数据缓存、指令缓存)&lt;/font&gt;&lt;/span&gt;" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="umqZjqoOpSbpQqLyCYVw-133" vertex="1">
           <mxGeometry y="20" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-135" value="L2" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" vertex="1" parent="umqZjqoOpSbpQqLyCYVw-133">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-135" value="L2" style="swimlane;startSize=180;horizontal=1;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;" parent="umqZjqoOpSbpQqLyCYVw-133" vertex="1">
           <mxGeometry y="50" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="umqZjqoOpSbpQqLyCYVw-133" source="umqZjqoOpSbpQqLyCYVw-135" target="umqZjqoOpSbpQqLyCYVw-135">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" parent="umqZjqoOpSbpQqLyCYVw-133" source="umqZjqoOpSbpQqLyCYVw-135" target="umqZjqoOpSbpQqLyCYVw-135" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-137" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L3&lt;/font&gt;&lt;/b&gt;(cat /sys/devices/system/cpu/cpu0/cache/index3/size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-137" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L3&lt;/font&gt;&lt;/b&gt;(cat /sys/devices/system/cpu/cpu0/cache/index3/size)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="232" y="1494" width="440" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-63" value="3.控制、地址、数据总线&lt;br&gt;&lt;font&gt;（物理地址）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" target="umqZjqoOpSbpQqLyCYVw-21">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-63" value="3.控制、地址、数据总线&lt;br&gt;&lt;font&gt;（物理地址）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="umqZjqoOpSbpQqLyCYVw-28" target="umqZjqoOpSbpQqLyCYVw-21" edge="1">
           <mxGeometry x="0.0167" y="30" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;线路位宽&lt;/b&gt;：最好1次能访问到所有的内存地址。若4G物理内存，则4G=2&lt;sup&gt;32&lt;/sup&gt;，需要32个地址总线。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;线路位宽&lt;/b&gt;：最好1次能访问到所有的内存地址。若4G物理内存，则4G=2&lt;sup&gt;32&lt;/sup&gt;，需要32个地址总线。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="710" y="1362" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-141" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【CPU读写数据以 CPU Cache Line 大小为为单位，CPU Cache Line 是 CPU 从内存读取数据到 Cache 的单位】【2.4】&lt;b&gt;&lt;br&gt;B1.cpu访问内存的数据(读）&lt;/b&gt;：&lt;br&gt;1.寄存器有，则获取，否则往后；&lt;br&gt;2.L1,L2,L3有，则获取，否则从往后;&lt;br&gt;3.内存有，则数据缓存到cache，最后CPU从cache读取&lt;br&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;B2.cpu写入数据(写）&lt;/b&gt;：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a类：写直达。无论数据在不在 Cache 里面，每次写操作都会写回到&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;内存&lt;/font&gt;。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b类：写回。只有在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存不命中，同时数据对应的 Cache 中的 Cache Block 为脏标记的情况下&lt;/font&gt;，才会将数据写到内存中；在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存命中(数据在cache中)&lt;/font&gt;的情况下，则在写入后 Cache 后，只需把该数据对应的 Cache Block 标记为脏即可，而不用写到内存里。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-141" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【CPU读写数据以 CPU Cache Line 大小为为单位，CPU Cache Line 是 CPU 从内存读取数据到 Cache 的单位】【2.4】&lt;b&gt;&lt;br&gt;B1.cpu访问内存的数据(读）&lt;/b&gt;：&lt;br&gt;1.寄存器有，则获取，否则往后；&lt;br&gt;2.L1,L2,L3有，则获取，否则从往后;&lt;br&gt;3.内存有，则数据缓存到cache，最后CPU从cache读取&lt;br&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;B2.cpu写入数据(写）&lt;/b&gt;：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a类：写直达。无论数据在不在 Cache 里面，每次写操作都会写回到&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;内存&lt;/font&gt;。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b类：写回。只有在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存不命中，同时数据对应的 Cache 中的 Cache Block 为脏标记的情况下&lt;/font&gt;，才会将数据写到内存中；在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存命中(数据在cache中)&lt;/font&gt;的情况下，则在写入后 Cache 后，只需把该数据对应的 Cache Block 标记为脏即可，而不用写到内存里。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="400" y="1890" width="520" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-147" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;拷问：&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;第2章_硬件结构&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 有了内存，为什么还需要 CPU Cache？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. CPU 是怎么读写数据的？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3. 如何让 CPU 能读取数据更快一些？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;4. CPU 伪共享是如何发生的？又该如何避免？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;5. CPU 是如何调度任务的？如果你的任务对响应要求很高，你希望它总是能被先调度，这该怎么办？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;第4章_内存管理&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 为什么要有虚拟内存？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;2.1. malloc 是如何分配内存的？为什么不仅用brk或仅用mmap系统调用分配内存？&lt;/div&gt;&lt;div&gt;2.2. malloc 分配的是物理内存吗？&lt;/div&gt;&lt;div&gt;2.3. malloc(1) 会分配多大的内存？&lt;/div&gt;&lt;div&gt;2.4. free 释放内存，会归还给操作系统吗？&lt;/div&gt;&lt;div&gt;2.5. free() 函数只传入一个内存地址，为什么能知道要释放多大的内存？&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3. 内存满了，会发生什么？&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;4.&amp;nbsp;&lt;/span&gt;在 4GB 物理内存的机器上，申请 8G 内存会怎么样？" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-147" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;拷问：&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;第2章_硬件结构&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 有了内存，为什么还需要 CPU Cache？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. CPU 是怎么读写数据的？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3. 如何让 CPU 能读取数据更快一些？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;4. CPU 伪共享是如何发生的？又该如何避免？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;5. CPU 是如何调度任务的？如果你的任务对响应要求很高，你希望它总是能被先调度，这该怎么办？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;第4章_内存管理&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 为什么要有虚拟内存？&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;2.1. malloc 是如何分配内存的？为什么不仅用brk或仅用mmap系统调用分配内存？&lt;/div&gt;&lt;div&gt;2.2. malloc 分配的是物理内存吗？&lt;/div&gt;&lt;div&gt;2.3. malloc(1) 会分配多大的内存？&lt;/div&gt;&lt;div&gt;2.4. free 释放内存，会归还给操作系统吗？&lt;/div&gt;&lt;div&gt;2.5. free() 函数只传入一个内存地址，为什么能知道要释放多大的内存？&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3. 内存满了，会发生什么？&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;4.&amp;nbsp;&lt;/span&gt;在 4GB 物理内存的机器上，申请 8G 内存会怎么样？" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-28" y="2400" width="610" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-149" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;解答：&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;第2章_硬件结构&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;/font&gt;1. Cache 作为 CPU 与内存之间的缓存层，以减少对内存的访问频率。&lt;br&gt;2. 见上文字&lt;br&gt;3.&amp;nbsp;如果我们操作的数据是数组，那么访问数组元素的时候，&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;按内存分布的地址顺序进行访问&lt;/font&gt;，这样能充分利用到 Cache，程序的性能得到提升。但如果操作的数据不是数组，而是普通的变量，并在多核 CPU 的情况下，我们还需要避免 Cache Line 伪共享的问题。&lt;br&gt;4.&amp;nbsp;多个线程同时读写同一个 Cache Line 的不同变量时，而导致 CPU Cache 失效的现象称为&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;伪共享&lt;/font&gt;。&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;第4章_内存管理&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1.&lt;/b&gt;&amp;nbsp;第一，&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;虚拟内存可以使得进程对运行内存超过物理内存大小&lt;/font&gt;。&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;因为程序运行符合局部性原理，CPU 访问内存会有很明显的重复访问的倾向性，对于那些没有被经常使用到的内存，我们可以把它换出到物理内存之外，比如硬盘上的 swap 区域。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;第二，&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;解决了多进程之间地址冲突的问题&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;由于每个进程都有自己的页表&lt;/font&gt;，所以每个进程的虚拟内存空间就是相互独立的。进程也没有办法访问其他进程的页表，所以这些页表是私有的，这就解决了多进程之间地址冲突的问题。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;第三，&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;在内存访问方面，操作系统提供了更好的安全性&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;页表里的页表项中除了物理地址之外，还有一些标记属性的比特，比如控制一个页的读写权限，标记该页是否存在等。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2.1&amp;amp;&amp;amp;2.4&lt;/b&gt;.&amp;nbsp;&amp;nbsp;malloc() 并不是系统调用，而是 C 库里的函数，用于动态分配内存；&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 方式一：用户分配的内存&amp;lt; 128 KB，通过 brk() 系统调用从堆分配内存【maps有heap表示】；free 释放内存后，堆内&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;存还是存在的，并没有归还给操作系统。&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 方式二：用户分配的内&amp;gt;=128 KB，通过 mmap() 系统调用在文件映射区域分配内存【匿名映射，maps无标识】；free 释放内存后就会归归还给操作系统。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;仅用方式1，随着系统频繁地 malloc 和 free ，尤其对于小块内存，堆内将产生越来越多不可用的碎片，导致“内存泄露”。而这种“泄露”现象使用 valgrind 是无法检测出来的。&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;仅用方式2，mmap 分配的内存每次释放的时候，都会归还给操作系统；频繁通过 mmap 分配的内存话，不仅每次都会发生运行态的切换，还会发生缺页中断（在第一次访问虚拟地址后），这样会导致 CPU 消耗较大。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;b&gt;2.2&lt;/b&gt;. malloc() 分配的是虚拟内存。&lt;/span&gt;&lt;font style=&quot;font-size: 14px; background-color: initial;&quot; color=&quot;#ff8000&quot;&gt;如果分配后的虚拟内存没有被访问的话，虚拟内存是不会映射到物理内存的，这样就不会占用物理内存了。&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2.3&lt;/b&gt;.&amp;nbsp;malloc() 在分配内存的时候，并不是老老实实按用户预期申请的字节数来分配内存空间大小，而是会预分配更大的空间作为内存池。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2.5&lt;/b&gt;.&amp;nbsp;&amp;nbsp;执行 free() 函数时，free 会对传入进来的内存地址向左偏移 16 字节，然后从这个 16 字节的分析出当前的内存块的大小，自然就知道要释放多大的内存。&lt;/font&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-149" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;解答：&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;第2章_硬件结构&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;/font&gt;1. Cache 作为 CPU 与内存之间的缓存层，以减少对内存的访问频率。&lt;br&gt;2. 见上文字&lt;br&gt;3.&amp;nbsp;如果我们操作的数据是数组，那么访问数组元素的时候，&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;按内存分布的地址顺序进行访问&lt;/font&gt;，这样能充分利用到 Cache，程序的性能得到提升。但如果操作的数据不是数组，而是普通的变量，并在多核 CPU 的情况下，我们还需要避免 Cache Line 伪共享的问题。&lt;br&gt;4.&amp;nbsp;多个线程同时读写同一个 Cache Line 的不同变量时，而导致 CPU Cache 失效的现象称为&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;伪共享&lt;/font&gt;。&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;第4章_内存管理&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1.&lt;/b&gt;&amp;nbsp;第一，&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;虚拟内存可以使得进程对运行内存超过物理内存大小&lt;/font&gt;。&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;因为程序运行符合局部性原理，CPU 访问内存会有很明显的重复访问的倾向性，对于那些没有被经常使用到的内存，我们可以把它换出到物理内存之外，比如硬盘上的 swap 区域。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;第二，&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;解决了多进程之间地址冲突的问题&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;由于每个进程都有自己的页表&lt;/font&gt;，所以每个进程的虚拟内存空间就是相互独立的。进程也没有办法访问其他进程的页表，所以这些页表是私有的，这就解决了多进程之间地址冲突的问题。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;第三，&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-size: 14px;&quot; color=&quot;#ff3333&quot;&gt;在内存访问方面，操作系统提供了更好的安全性&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;页表里的页表项中除了物理地址之外，还有一些标记属性的比特，比如控制一个页的读写权限，标记该页是否存在等。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2.1&amp;amp;&amp;amp;2.4&lt;/b&gt;.&amp;nbsp;&amp;nbsp;malloc() 并不是系统调用，而是 C 库里的函数，用于动态分配内存；&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 方式一：用户分配的内存&amp;lt; 128 KB，通过 brk() 系统调用从堆分配内存【maps有heap表示】；free 释放内存后，堆内&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;存还是存在的，并没有归还给操作系统。&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 方式二：用户分配的内&amp;gt;=128 KB，通过 mmap() 系统调用在文件映射区域分配内存【匿名映射，maps无标识】；free 释放内存后就会归归还给操作系统。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;仅用方式1，随着系统频繁地 malloc 和 free ，尤其对于小块内存，堆内将产生越来越多不可用的碎片，导致“内存泄露”。而这种“泄露”现象使用 valgrind 是无法检测出来的。&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;仅用方式2，mmap 分配的内存每次释放的时候，都会归还给操作系统；频繁通过 mmap 分配的内存话，不仅每次都会发生运行态的切换，还会发生缺页中断（在第一次访问虚拟地址后），这样会导致 CPU 消耗较大。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;b&gt;2.2&lt;/b&gt;. malloc() 分配的是虚拟内存。&lt;/span&gt;&lt;font style=&quot;font-size: 14px; background-color: initial;&quot; color=&quot;#ff8000&quot;&gt;如果分配后的虚拟内存没有被访问的话，虚拟内存是不会映射到物理内存的，这样就不会占用物理内存了。&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2.3&lt;/b&gt;.&amp;nbsp;malloc() 在分配内存的时候，并不是老老实实按用户预期申请的字节数来分配内存空间大小，而是会预分配更大的空间作为内存池。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2.5&lt;/b&gt;.&amp;nbsp;&amp;nbsp;执行 free() 函数时，free 会对传入进来的内存地址向左偏移 16 字节，然后从这个 16 字节的分析出当前的内存块的大小，自然就知道要释放多大的内存。&lt;/font&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="600" y="2400" width="770" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-150" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【CPU读写数据以 CPU Cache Line 大小为为单位，CPU Cache Line 是 CPU 从内存读取数据到 Cache 的单位】【2.4】&lt;b&gt;&lt;br&gt;B1.cpu访问内存的数据(读）&lt;/b&gt;：&lt;br&gt;1.寄存器有，则获取，否则往后；&lt;br&gt;2.L1,L2,L3有，则获取，否则从往后;&lt;br&gt;3.内存有，则数据缓存到cache，最后CPU从cache读取&lt;br&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;B2.cpu写入数据(写）&lt;/b&gt;：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a类：写直达。无论数据在不在 Cache 里面，每次写操作都会写回到&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;内存&lt;/font&gt;。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b类：写回。只有在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存不命中，同时数据对应的 Cache 中的 Cache Block 为脏标记的情况下&lt;/font&gt;，才会将数据写到内存中；在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存命中(数据在cache中)&lt;/font&gt;的情况下，则在写入后 Cache 后，只需把该数据对应的 Cache Block 标记为脏即可，而不用写到内存里。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-150" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;【CPU读写数据以 CPU Cache Line 大小为为单位，CPU Cache Line 是 CPU 从内存读取数据到 Cache 的单位】【2.4】&lt;b&gt;&lt;br&gt;B1.cpu访问内存的数据(读）&lt;/b&gt;：&lt;br&gt;1.寄存器有，则获取，否则往后；&lt;br&gt;2.L1,L2,L3有，则获取，否则从往后;&lt;br&gt;3.内存有，则数据缓存到cache，最后CPU从cache读取&lt;br&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;B2.cpu写入数据(写）&lt;/b&gt;：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a类：写直达。无论数据在不在 Cache 里面，每次写操作都会写回到&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;内存&lt;/font&gt;。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b类：写回。只有在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存不命中，同时数据对应的 Cache 中的 Cache Block 为脏标记的情况下&lt;/font&gt;，才会将数据写到内存中；在&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;缓存命中(数据在cache中)&lt;/font&gt;的情况下，则在写入后 Cache 后，只需把该数据对应的 Cache Block 标记为脏即可，而不用写到内存里。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="400" y="2140" width="520" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-153" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=classic;startFill=1;endArrow=classic;endFill=1;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-151" target="umqZjqoOpSbpQqLyCYVw-2">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-153" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=classic;startFill=1;endArrow=classic;endFill=1;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" source="umqZjqoOpSbpQqLyCYVw-151" target="umqZjqoOpSbpQqLyCYVw-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-154" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" connectable="0" parent="umqZjqoOpSbpQqLyCYVw-153">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-154" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#FF3333;" parent="umqZjqoOpSbpQqLyCYVw-153" vertex="1" connectable="0">
           <mxGeometry x="0.0606" y="8" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-151" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;网卡&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-151" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;网卡&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1750" y="1060" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="umqZjqoOpSbpQqLyCYVw-155" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;C.中断&lt;/b&gt;：【2.6】&lt;br&gt;1. 上半部：处理硬件请求(网卡)，硬中断。如：网卡收到网络包后，通过 DMA 方式将接收到的数据写入内存，接着会通过&lt;font color=&quot;#ff3333&quot;&gt;硬件中断&lt;/font&gt;通知内核有新的数据到了，接着会先禁止网卡中断，避免频繁硬中断，而降低内核的工作效率。&lt;br&gt;2. 下半部：由内核触发，软中断。内核就会调用对应的&lt;font color=&quot;#ff3333&quot;&gt;中断处理程&lt;/font&gt;序来处理该事件。如：从内存中找到网络数据，再按照网络协议栈，对网络数据进行逐层解析和处理，最后把数据送给应用程序。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;gradientColor=#ea6b66;" vertex="1" parent="1">
+        <mxCell id="umqZjqoOpSbpQqLyCYVw-155" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;C.中断&lt;/b&gt;：【2.6】&lt;br&gt;1. 上半部：处理硬件请求(网卡)，硬中断。如：网卡收到网络包后，通过 DMA 方式将接收到的数据写入内存，接着会通过&lt;font color=&quot;#ff3333&quot;&gt;硬件中断&lt;/font&gt;通知内核有新的数据到了，接着会先禁止网卡中断，避免频繁硬中断，而降低内核的工作效率。&lt;br&gt;2. 下半部：由内核触发，软中断。内核就会调用对应的&lt;font color=&quot;#ff3333&quot;&gt;中断处理程&lt;/font&gt;序来处理该事件。如：从内存中找到网络数据，再按照网络协议栈，对网络数据进行逐层解析和处理，最后把数据送给应用程序。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="1970" y="1040" width="470" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;M：内存&lt;br&gt;F：文件系统&lt;br&gt;S：调度(进程)&lt;br&gt;ARCH：硬件&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;M：内存&lt;br&gt;F：文件系统&lt;br&gt;S：调度(进程)&lt;br&gt;ARCH：硬件&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;align=left;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="540" y="-300" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-14" value="疑问" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fontFamily=Helvetica;fontSize=14;fillColor=#ffff88;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-14" value="疑问" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fontFamily=Helvetica;fontSize=14;fillColor=#ffff88;" parent="1" vertex="1">
           <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-19" value="&lt;font color=&quot;#000000&quot;&gt;DMA映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-19" value="&lt;font color=&quot;#000000&quot;&gt;DMA映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="754.8888888888889" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-20" value="&lt;font color=&quot;#000000&quot;&gt;Normal映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-20" value="&lt;font color=&quot;#000000&quot;&gt;Normal映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="723.7777777777778" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-21" value="&lt;font color=&quot;#000000&quot;&gt;8M空洞&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-21" value="&lt;font color=&quot;#000000&quot;&gt;8M空洞&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="199" y="692.6666666666666" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-22" value="&lt;font color=&quot;#000000&quot;&gt;vmalloc动态映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-22" value="&lt;font color=&quot;#000000&quot;&gt;vmalloc动态映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="661.5555555555555" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-23" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-23" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="199" y="630.4444444444445" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-24" value="&lt;font color=&quot;#000000&quot;&gt;永久映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-24" value="&lt;font color=&quot;#000000&quot;&gt;永久映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="599.3333333333334" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-25" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px;&quot;&gt;固定映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-25" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px;&quot;&gt;固定映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="568.2222222222222" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-26" value="&lt;font color=&quot;#000000&quot;&gt;临时映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-26" value="&lt;font color=&quot;#000000&quot;&gt;临时映射区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="537.1111111111111" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-30" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 14px; background-color: initial;&quot;&gt;进程1&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;32位系统：虚拟地址空间分布&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-30" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 14px; background-color: initial;&quot;&gt;进程1&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;32位系统：虚拟地址空间分布&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="182" y="190" width="208" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-30" target="umqZjqoOpSbpQqLyCYVw-13">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-30" target="umqZjqoOpSbpQqLyCYVw-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-4" value="&lt;font color=&quot;#000000&quot;&gt;保留区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-4" value="&lt;font color=&quot;#000000&quot;&gt;保留区&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="200" y="483.8888888888889" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-5" value="&lt;font color=&quot;#000000&quot;&gt;代码段.text&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-5" value="&lt;font color=&quot;#000000&quot;&gt;代码段.text&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="452.77777777777777" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-6" value="&lt;font color=&quot;#000000&quot;&gt;数据段.data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-6" value="&lt;font color=&quot;#000000&quot;&gt;数据段.data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="421.66666666666663" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-8" value="&lt;font color=&quot;#000000&quot;&gt;BSS段.bss&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-8" value="&lt;font color=&quot;#000000&quot;&gt;BSS段.bss&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="390.55555555555554" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-9" value="堆malloc" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-9" value="堆malloc" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="359.44444444444446" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-10" value="&lt;font color=&quot;#000000&quot;&gt;待分配区域&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-10" value="&lt;font color=&quot;#000000&quot;&gt;待分配区域&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="200" y="328.3333333333333" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;文件映射与匿名映射区(mmap/动态库)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;文件映射与匿名映射区(mmap/动态库)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="297.22222222222223" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-12" value="&lt;font color=&quot;#000000&quot;&gt;待分配区域&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-12" value="&lt;font color=&quot;#000000&quot;&gt;待分配区域&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="200" y="266.1111111111111" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-13" value="栈" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-13" value="栈" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="235" width="115.46391752577318" height="31.11111111111111" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;curved=1;" edge="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330.0017525773196" y="235" as="sourcePoint" />
             <mxPoint x="330.0017525773196" y="328.3333333333333" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-16" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;curved=1;" edge="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-16" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="515" as="sourcePoint" />
             <mxPoint x="330" y="360.2962962962963" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-31" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;curved=1;exitX=0.212;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="umqZjqoOpSbpQqLyCYVw-2">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-31" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;curved=1;exitX=0.212;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="umqZjqoOpSbpQqLyCYVw-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="394.7" as="sourcePoint" />
             <mxPoint x="380" y="239.99629629629652" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-32" value="高地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="I6BwEbaGJY3xJRhFpG0U-31">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-32" value="高地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" parent="I6BwEbaGJY3xJRhFpG0U-31" vertex="1" connectable="0">
           <mxGeometry x="0.8619" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-33" value="低地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="I6BwEbaGJY3xJRhFpG0U-31">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-33" value="低地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=#000000;" parent="I6BwEbaGJY3xJRhFpG0U-31" vertex="1" connectable="0">
           <mxGeometry x="-0.6177" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TLB快表&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;(负责缓存最近常被访问的&lt;font color=&quot;#ff3333&quot;&gt;页表项&lt;/font&gt;，大大提高了地址的转换速度)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TLB快表&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;(负责缓存最近常被访问的&lt;font color=&quot;#ff3333&quot;&gt;页表项&lt;/font&gt;，大大提高了地址的转换速度)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="402" y="1398" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;虚拟内存地址&lt;/b&gt;：程序所使用的内存地址。&lt;br&gt;&lt;b&gt;物理内存地址&lt;/b&gt;：存在硬件里面的空间地址。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;虚拟内存地址&lt;/b&gt;：程序所使用的内存地址。&lt;br&gt;&lt;b&gt;物理内存地址&lt;/b&gt;：存在硬件里面的空间地址。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-96" y="266.11" width="286" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-43" target="I6BwEbaGJY3xJRhFpG0U-44">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-43" target="I6BwEbaGJY3xJRhFpG0U-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-43" value="&lt;font color=&quot;#000000&quot;&gt;(物理)分段&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-43" value="&lt;font color=&quot;#000000&quot;&gt;(物理)分段&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1659.5" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-44" value="&lt;font color=&quot;#000000&quot;&gt;(物理)分页&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-44" value="&lt;font color=&quot;#000000&quot;&gt;(物理)分页&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1790" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1134" y="1653.5" width="20" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-47" value="优点：程序本身不需要关心具体的物理内存地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-47" value="优点：程序本身不需要关心具体的物理内存地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1154" y="1640.5" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-48" value="缺点：产生外部内存碎片；&lt;br&gt;内存交换的效率低：硬盘的访问速度要比内存慢太多了，&lt;br&gt;每一次内存交换，我们都需要把一大段连续的内存数据写到硬盘上，使得整个机器卡顿" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-48" value="缺点：产生外部内存碎片；&lt;br&gt;内存交换的效率低：硬盘的访问速度要比内存慢太多了，&lt;br&gt;每一次内存交换，我们都需要把一大段连续的内存数据写到硬盘上，使得整个机器卡顿" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1164" y="1683.5" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;exitX=0.011;exitY=0.358;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-78" target="umqZjqoOpSbpQqLyCYVw-28">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;strokeColor=#BD7000;exitX=0.011;exitY=0.358;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-78" target="umqZjqoOpSbpQqLyCYVw-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1010" y="1075" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-52" value="2.2缺页异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="I6BwEbaGJY3xJRhFpG0U-51">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-52" value="2.2缺页异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#FF8000;" parent="I6BwEbaGJY3xJRhFpG0U-51" vertex="1" connectable="0">
           <mxGeometry x="-0.0298" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-56" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-56" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1140" y="1753" width="20" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;优点：1. 采取分页，页与页之间是紧密排列的，所以不会有外部碎片；&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2. 内存交换效率提高：物理内存空间不够时，操作系统会把其他正在运行的进程中的「最近没被使用」的物理内存页面给释放掉，也就是暂时写在硬盘上，称为&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;换出&lt;/font&gt;；一旦需要的时候，再加载进来，称为&lt;font color=&quot;#ff3333&quot;&gt;换入&lt;/font&gt;。所以，一次性写入磁盘的也只有少数的一个页或者几个页，不会花太多时间。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;优点：1. 采取分页，页与页之间是紧密排列的，所以不会有外部碎片；&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2. 内存交换效率提高：物理内存空间不够时，操作系统会把其他正在运行的进程中的「最近没被使用」的物理内存页面给释放掉，也就是暂时写在硬盘上，称为&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;换出&lt;/font&gt;；一旦需要的时候，再加载进来，称为&lt;font color=&quot;#ff3333&quot;&gt;换入&lt;/font&gt;。所以，一次性写入磁盘的也只有少数的一个页或者几个页，不会花太多时间。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1740" width="540" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-71" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-71" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="532" y="1211" width="121" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-66" value="虚拟地址" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-71">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-66" value="虚拟地址" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-71" vertex="1">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-67" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" edge="1" parent="I6BwEbaGJY3xJRhFpG0U-71">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-67" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" parent="I6BwEbaGJY3xJRhFpG0U-71" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="27.5" as="sourcePoint" />
             <mxPoint x="120" y="28" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-68" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-71">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-68" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" parent="I6BwEbaGJY3xJRhFpG0U-71" vertex="1">
           <mxGeometry x="1" y="30" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-69" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" edge="1" parent="I6BwEbaGJY3xJRhFpG0U-71">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-69" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" parent="I6BwEbaGJY3xJRhFpG0U-71" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="60" as="sourcePoint" />
             <mxPoint x="40" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页内偏移量&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-71">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页内偏移量&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" parent="I6BwEbaGJY3xJRhFpG0U-71" vertex="1">
           <mxGeometry x="41" y="30" width="80" height="26.5" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BD7000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-66" target="umqZjqoOpSbpQqLyCYVw-28">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BD7000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#f0a30a;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-66" target="umqZjqoOpSbpQqLyCYVw-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="532" y="1230" />
@@ -373,60 +373,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-76" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#FF8000;" vertex="1" connectable="0" parent="I6BwEbaGJY3xJRhFpG0U-75">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-76" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#FF8000;" parent="I6BwEbaGJY3xJRhFpG0U-75" vertex="1" connectable="0">
           <mxGeometry x="-0.3655" y="17" relative="1" as="geometry">
             <mxPoint x="-67" y="33" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-77" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-77" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1164" y="1121" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-78" value="&lt;font color=&quot;#ff3333&quot;&gt;页表&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;（记录虚拟地址与物理地址映射关系)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-77">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-78" value="&lt;font color=&quot;#ff3333&quot;&gt;页表&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;（记录虚拟地址与物理地址映射关系)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-77" vertex="1">
           <mxGeometry y="-8.571428571428571" width="180" height="68.57142857142857" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-79" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" edge="1" parent="I6BwEbaGJY3xJRhFpG0U-77">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-79" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" parent="I6BwEbaGJY3xJRhFpG0U-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="27.499999999999993" as="sourcePoint" />
             <mxPoint x="178.51239669421494" y="27.999999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;虚拟页号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-77">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;虚拟页号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" parent="I6BwEbaGJY3xJRhFpG0U-77" vertex="1">
           <mxGeometry x="1.487603305785124" y="30" width="59.50413223140496" height="25.999999999999996" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-81" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" edge="1" parent="I6BwEbaGJY3xJRhFpG0U-77">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-81" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;curved=1;" parent="I6BwEbaGJY3xJRhFpG0U-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="59.50413223140496" y="60" as="sourcePoint" />
             <mxPoint x="59.50413223140496" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-82" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;物理页号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-77">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-82" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;物理页号&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#000000;" parent="I6BwEbaGJY3xJRhFpG0U-77" vertex="1">
           <mxGeometry x="60.99173553719008" y="30" width="119.00826446280992" height="26.499999999999996" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-84" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#A50040;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;exitX=0.142;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d80073;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-66" target="I6BwEbaGJY3xJRhFpG0U-78">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-84" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#A50040;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;exitX=0.142;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d80073;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-66" target="I6BwEbaGJY3xJRhFpG0U-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-92" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-92" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1213" y="1280" width="75" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-85" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;物理地址&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-92">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-85" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px;&quot;&gt;物理地址&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" parent="I6BwEbaGJY3xJRhFpG0U-92" vertex="1">
           <mxGeometry width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-86" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页f&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-92">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-86" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页f&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-92" vertex="1">
           <mxGeometry x="17.5" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-87" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-92">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-87" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" parent="I6BwEbaGJY3xJRhFpG0U-92" vertex="1">
           <mxGeometry y="30" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-88" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页e&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-92">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-88" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页e&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-92" vertex="1">
           <mxGeometry x="18.5" y="30" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-89" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-92">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-89" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF3333;fillColor=none;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" parent="I6BwEbaGJY3xJRhFpG0U-92" vertex="1">
           <mxGeometry y="60" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-90" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页d&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-92">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-90" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;页d&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-92" vertex="1">
           <mxGeometry x="18.5" y="60" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-93" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#A50040;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#d80073;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-78" target="I6BwEbaGJY3xJRhFpG0U-87">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-93" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#A50040;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#d80073;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-78" target="I6BwEbaGJY3xJRhFpG0U-87" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1320" y="1181" />
@@ -436,58 +436,58 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;strokeColor=#A50040;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d80073;" edge="1" parent="1" source="I6BwEbaGJY3xJRhFpG0U-70" target="I6BwEbaGJY3xJRhFpG0U-85">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;strokeColor=#A50040;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d80073;" parent="1" source="I6BwEbaGJY3xJRhFpG0U-70" target="I6BwEbaGJY3xJRhFpG0U-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-95" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-95" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1289" width="10" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-98" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;页内偏移&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-98" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;页内偏移&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1288" width="60" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-100" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;缺点：简单的一级页表会耗尽物理内存。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;在 32 位的环境下，虚拟地址空间共有 4GB，假设一个页的大小是 4KB（2^12），那么就需要大约 100 万 （2^20） 个页，每个「页表项」需要 4 个字节大小来存储，那么整个 4GB 空间的映射就需要有 4MB 的内存来存储页表。因此&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px;&quot;&gt;100&lt;/code&gt;&amp;nbsp;个进程的话，就需要&amp;nbsp;&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px;&quot;&gt;400MB&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;的内存来存储页表。&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;因此，采用多级页表。&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-100" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;缺点：简单的一级页表会耗尽物理内存。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;在 32 位的环境下，虚拟地址空间共有 4GB，假设一个页的大小是 4KB（2^12），那么就需要大约 100 万 （2^20） 个页，每个「页表项」需要 4 个字节大小来存储，那么整个 4GB 空间的映射就需要有 4MB 的内存来存储页表。因此&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px;&quot;&gt;100&lt;/code&gt;&amp;nbsp;个进程的话，就需要&amp;nbsp;&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px;&quot;&gt;400MB&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;的内存来存储页表。&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;因此，采用多级页表。&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1840" width="540" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-105" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-105" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1270" width="128" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-107" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-107" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="150" y="235" width="40" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-101" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-107">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-101" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" parent="I6BwEbaGJY3xJRhFpG0U-107" vertex="1">
           <mxGeometry x="20" width="20" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-106" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3G&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-107">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-106" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;3G&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-107" vertex="1">
           <mxGeometry y="122.5" width="28" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-108" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-108" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="150" y="542" width="40" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-109" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-108">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-109" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#FF8000;fillColor=#FF3399;" parent="I6BwEbaGJY3xJRhFpG0U-108" vertex="1">
           <mxGeometry x="20" width="20" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-110" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1G&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-108">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-110" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1G&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="I6BwEbaGJY3xJRhFpG0U-108" vertex="1">
           <mxGeometry y="111.36363636363636" width="28" height="27.272727272727273" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-116" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-116" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="460" y="217" width="130" height="305.22" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-111" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户空间&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=center;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-116">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-111" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户空间&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=center;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="I6BwEbaGJY3xJRhFpG0U-116" vertex="1">
           <mxGeometry y="23" width="130" height="282.22" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-112" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;进程2&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-116">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-112" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;进程2&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="I6BwEbaGJY3xJRhFpG0U-116" vertex="1">
           <mxGeometry x="41" width="42" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-117" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-117" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="660" y="217" width="130" height="305.22" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-118" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户空间&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=center;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-117">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-118" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户空间&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fillColor=none;align=center;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="I6BwEbaGJY3xJRhFpG0U-117" vertex="1">
           <mxGeometry y="23" width="130" height="282.22" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;进程3&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="I6BwEbaGJY3xJRhFpG0U-117">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;进程3&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="I6BwEbaGJY3xJRhFpG0U-117" vertex="1">
           <mxGeometry x="41" width="42" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="I6BwEbaGJY3xJRhFpG0U-123" value="内核空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="I6BwEbaGJY3xJRhFpG0U-123" value="内核空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="460" y="522.22" width="330" height="127.78" as="geometry" />
         </mxCell>
       </root>
