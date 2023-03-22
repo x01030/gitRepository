@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T12:20:14.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Burzow34aA_jtNljOeKo" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T12:48:30.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uVM2PJv2DpCj24v4Cd7C" version="21.0.10" type="github">
   <diagram name="第 1 页" id="VpofHfH1nedOJpIeFxnD">
     <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,6 +433,9 @@
         <mxCell id="DIyC-fpvMkbPvDOknml4-123" value="内存分配正常" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1420" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=1;strokeColor=#B5739D;" edge="1" parent="1" source="DIyC-fpvMkbPvDOknml4-124" target="DIyC-fpvMkbPvDOknml4-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-124" value="内存压力大&lt;font style=&quot;font-size: 10px;&quot;&gt;(触发kswapd0，不阻塞程序，异步)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1450" width="180" height="30" as="geometry" />
         </mxCell>
@@ -440,6 +443,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-126" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;horizontal=0;" parent="1" source="DIyC-fpvMkbPvDOknml4-127" target="DIyC-fpvMkbPvDOknml4-137" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;strokeColor=#B5739D;" edge="1" parent="1" source="DIyC-fpvMkbPvDOknml4-127" target="DIyC-fpvMkbPvDOknml4-141">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-127" value="内存基本耗尽&lt;font style=&quot;font-size: 10px;&quot;&gt;（触发直接内存回收，应用程序被阻塞，同步&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=14;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
@@ -502,16 +508,13 @@
         <mxCell id="DIyC-fpvMkbPvDOknml4-139" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="DIyC-fpvMkbPvDOknml4-141" target="DIyC-fpvMkbPvDOknml4-145" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DIyC-fpvMkbPvDOknml4-140" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="DIyC-fpvMkbPvDOknml4-141" target="DIyC-fpvMkbPvDOknml4-127" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-141" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#b5739d&quot;&gt;内存回收类型(采用swap机制)&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;/proc/sys/vm/swappiness&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1652" width="160" height="48" as="geometry" />
         </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF8000;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="DIyC-fpvMkbPvDOknml4-143" target="DIyC-fpvMkbPvDOknml4-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DIyC-fpvMkbPvDOknml4-143" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;文件页&lt;/font&gt;：&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;内核缓存的磁盘数据（Buffer）和内核缓存的文件数据（Cache）都叫作文件页。&lt;font color=&quot;#ff8000&quot;&gt;回收干净页的方式是直接释放内存，回收脏页的方式是先写回磁盘后再释放内存。&lt;br&gt;&lt;/font&gt;&lt;/font&gt;swap文件：文件系统中的特殊文件，它与文件系统中的其他文件也没有太多的区别。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="DIyC-fpvMkbPvDOknml4-143" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;文件页&lt;/font&gt;：&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;内核缓存的磁盘数据（Buffer）和内核缓存的文件数据（Cache）都叫作文件页。&lt;font color=&quot;#ff8000&quot;&gt;回收干净页的方式是直接释放内存，回收脏页的方式是先写回磁盘后再释放内存。&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font color=&quot;#b5739d&quot;&gt;swap文件&lt;/font&gt;：文件系统中的特殊文件，它与文件系统中的其他文件也没有太多的区别。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1490" y="1592" width="380" height="88" as="geometry" />
         </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-144" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=10;fontColor=#FF8000;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="DIyC-fpvMkbPvDOknml4-145" target="DIyC-fpvMkbPvDOknml4-146" edge="1">
@@ -525,6 +528,78 @@
         </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-147" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;C.中断&lt;/b&gt;：【2.6】&lt;br&gt;1. 上半部：处理硬件请求(网卡)，硬中断。如：网卡收到网络包后，通过 DMA 方式将接收到的数据写入内存，接着会通过&lt;font color=&quot;#ff3333&quot;&gt;硬件中断&lt;/font&gt;通知内核有新的数据到了，接着会先禁止网卡中断，避免频繁硬中断，而降低内核的工作效率。&lt;br&gt;2. 下半部：由内核触发，软中断。内核就会调用对应的&lt;font color=&quot;#ff3333&quot;&gt;中断处理程&lt;/font&gt;序来处理该事件。如：从内存中找到网络数据，再按照网络协议栈，对网络数据进行逐层解析和处理，最后把数据送给应用程序。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="1950" y="1031" width="470" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="985.24" y="1740" width="454.76" height="514" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-1" value="&lt;font color=&quot;#b5739d&quot;&gt;操作系统位数？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="65" y="76.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-2" target="H6DBTLBSrGW8d4L5NA5g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-2" value="4G物理内存的机器，申请8G内存，怎样？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="10" width="230" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-4" value="32G无法申请，进程最多申请8G内存" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="280" y="76.5" width="130" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-5" value="32位" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-1" target="H6DBTLBSrGW8d4L5NA5g-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-7" value="申请8G内存成功，最大可申请128T" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="62.5" y="174" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-8" value="64位" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-1" target="H6DBTLBSrGW8d4L5NA5g-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-9" value="注：申请8G内存，指的是malloc虚拟内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="260" y="3.5" width="160" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-10" value="&lt;font color=&quot;#b5739d&quot;&gt;访问虚拟地址的内容？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="55.62999999999988" y="224" width="138.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-7" target="H6DBTLBSrGW8d4L5NA5g-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-12" value="&lt;font color=&quot;#b5739d&quot;&gt;开启swap机制？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="57.12000000000012" y="304" width="138.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-13" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-10" target="H6DBTLBSrGW8d4L5NA5g-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-17" value="触发内存回收，访问8G虚拟内存成功进程正常运行" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="65.00499999999988" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-18" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-12" target="H6DBTLBSrGW8d4L5NA5g-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-19" value="结束" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="78.5" y="484" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-22" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-10" target="H6DBTLBSrGW8d4L5NA5g-19">
+          <mxGeometry x="-0.9032" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="249" />
+              <mxPoint y="499" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-17" target="H6DBTLBSrGW8d4L5NA5g-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-25" target="H6DBTLBSrGW8d4L5NA5g-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-25" value="累计访问4G的虚拟内存成功，之后超过实际的物理内存4G会访问失败" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="H6DBTLBSrGW8d4L5NA5g-28">
+          <mxGeometry x="260" y="299.6300000000001" width="194.76" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-26" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6DBTLBSrGW8d4L5NA5g-28" source="H6DBTLBSrGW8d4L5NA5g-12" target="H6DBTLBSrGW8d4L5NA5g-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6DBTLBSrGW8d4L5NA5g-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#B5739D;dashed=1;" edge="1" parent="1" source="H6DBTLBSrGW8d4L5NA5g-12" target="DIyC-fpvMkbPvDOknml4-141">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
