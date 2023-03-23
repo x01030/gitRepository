@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T01:58:32.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="h55FpDabzA4gv6b7CWNE" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T01:58:59.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="B_RrqNCP5FfY4dVqZcfO" version="21.0.10" type="github">
   <diagram name="第 1 页" id="VpofHfH1nedOJpIeFxnD">
     <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -525,11 +525,6 @@
         </mxCell>
         <mxCell id="DIyC-fpvMkbPvDOknml4-146" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;回收内存的操作基本都会发生&lt;font color=&quot;#ff8000&quot;&gt;磁盘I/O(降低系统性能)&lt;/font&gt;，如果频繁回收内存，导致系统很卡。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1930" y="1639" width="210" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="H6DBTLBSrGW8d4L5NA5g-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#B5739D;dashed=1;" edge="1" parent="1" target="DIyC-fpvMkbPvDOknml4-141">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1181.1100000000001" y="2069" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="H6DBTLBSrGW8d4L5NA5g-30" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1022" y="217" width="130" height="305.22" as="geometry" />
